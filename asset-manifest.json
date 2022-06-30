@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rateba-openingsoon/static/css/main.06c649e7.css",
-    "main.js": "/rateba-openingsoon/static/js/main.d92fd0d8.js",
+    "main.css": "/rateba-openingsoon/static/css/main.2ed52fd1.css",
+    "main.js": "/rateba-openingsoon/static/js/main.8603f9c2.js",
     "static/media/bg-image.jpg": "/rateba-openingsoon/static/media/bg-image.fbb9b3b06735973e1d06.jpg",
     "static/media/icon-googlemaps.svg": "/rateba-openingsoon/static/media/icon-googlemaps.4f4f0200a12e1481ae76ed76fe9aeb5b.svg",
     "static/media/logo.svg": "/rateba-openingsoon/static/media/logo.dca95104da362fad97aea5803226a68d.svg",
@@ -15,11 +15,11 @@
     "static/media/icon-facebook.svg": "/rateba-openingsoon/static/media/icon-facebook.98579d3eb494a6bd1772beac5a1e1aa1.svg",
     "static/media/icon-email.svg": "/rateba-openingsoon/static/media/icon-email.5e6df2d83ee09d27502be76c600db39b.svg",
     "static/media/icon-arrow.svg": "/rateba-openingsoon/static/media/icon-arrow.3a0a7737be36e269541e5ae35901fccc.svg",
-    "main.06c649e7.css.map": "/rateba-openingsoon/static/css/main.06c649e7.css.map",
-    "main.d92fd0d8.js.map": "/rateba-openingsoon/static/js/main.d92fd0d8.js.map"
+    "main.2ed52fd1.css.map": "/rateba-openingsoon/static/css/main.2ed52fd1.css.map",
+    "main.8603f9c2.js.map": "/rateba-openingsoon/static/js/main.8603f9c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.06c649e7.css",
-    "static/js/main.d92fd0d8.js"
+    "static/css/main.2ed52fd1.css",
+    "static/js/main.8603f9c2.js"
   ]
 }

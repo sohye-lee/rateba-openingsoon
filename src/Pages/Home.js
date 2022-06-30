@@ -1,13 +1,14 @@
-import logo from '../images/logo.png';
-import rocket from '../images/icon-rocket.png';
-import email from '../images/icon-email.png';
-import compass from '../images/icon-compass.png';
-import send from '../images/icon-send.png';
-import googlemaps from '../images/icon-googlemaps.png';
-import instagram from '../images/icon-instagram.png';
-import facebook from '../images/icon-facebook.png';
-import google from '../images/icon-google.png';
-import arrow from '../images/icon-arrow.png';
+import logo from '../images/logo.svg';
+import rocket from '../images/icon-rocket.svg';
+import email from '../images/icon-email.svg';
+import compass from '../images/icon-compass.svg';
+import send from '../images/icon-send.svg';
+import googlemaps from '../images/icon-googlemaps.svg';
+import instagram from '../images/icon-instagram.svg';
+import facebook from '../images/icon-facebook.svg';
+import google from '../images/icon-google.svg';
+import arrow from '../images/icon-arrow.svg';
+import phone from '../images/icon-phone.svg';
 
 import React from 'react';
 
@@ -24,7 +25,7 @@ const Home = () => {
           <div className="text-box">
             <div class="texts">
               <h1 className="title">Opening Soon</h1>
-              <p className="text">
+              <p className="text p4">
                 A cozy, warm Asian Bistro specializing in ramen, teriyaki, and
                 bao buns, offering steamy, savory bowls of ramen as well as
                 juicy, rich barbeque at low prices. Come to relax and enjoy
@@ -41,20 +42,35 @@ const Home = () => {
 
             <div className="info">
               <div className="info-item d-flex align-items-center p2 mb-2">
-                <img src={rocket} alt="rocket icon" className="me-3" />
-                Will be lanched in
-                <span className="h-4 fw-bold ms-2">July 2022</span>
+                <img src={rocket} alt="rocket icon" className="me-3 icon" />
+                <span className="d-none d-md-inline">Will be lanched in</span>
+
+                <span className="h-4 fw-bold ms-md-2">July 2022</span>
               </div>
+              <a
+                href="tel:+15714077501"
+                className="info-item d-flex align-items-center p2 mb-2"
+              >
+                <img src={phone} alt="rocket icon" className="me-3 icon" />
+                <span className="d-none d-md-inline">Call at</span>
+                <span className="h-4 fw-bold ms-md-2">(571) 407-7501</span>
+              </a>
+              <a
+                href="mailto:ratebagrillramen@gmail.com"
+                className="info-item d-flex align-items-center p2 mb-2"
+              >
+                <img src={email} alt="rocket icon" className="me-3 icon" />
+                <span className="d-none d-md-inline">Write to</span>
+                <span className="h-4 fw-bold ms-md-2">
+                  ratebagrillramen@gmail.com
+                </span>
+              </a>
               <div className="info-item d-flex align-items-center p2 mb-2">
-                <img src={email} alt="rocket icon" className="me-3" />
-                Write to
-                <span className="h-4 fw-bold ms-2">info@ratebava.com</span>
-              </div>
-              <div className="info-item d-flex align-items-center p2 mb-2">
-                <img src={compass} alt="rocket icon" className="me-3" />
-                Located at
-                <span className="h-4 fw-bold ms-2">
-                  3089 Nutley St SW, Fairfax, VA 22031
+                <img src={compass} alt="rocket icon" className="me-3 icon" />
+                <span className="d-none d-md-inline">Located at</span>
+                <span className="h-4 fw-bold ms-md-2">
+                  3075 Nutley St,
+                  <br className="d-md-none" /> Fairfax, VA 22031
                 </span>
               </div>
             </div>
@@ -70,18 +86,18 @@ const Home = () => {
               <p className="fw-light p5 m-0 p-0">Be the first to know!</p>
             </div>
           </div>
-          <div className="sns-box">
+          <div className="sns-box mt-5">
             <a href="/" className="sns-link">
-              <img src={googlemaps} alt="google maps link" />
+              <img src={googlemaps} alt="google maps link" className="icon" />
             </a>
             <a href="/" className="sns-link">
-              <img src={instagram} alt="instagram link" />
+              <img src={instagram} alt="instagram link" className="icon" />
             </a>
             <a href="/" className="sns-link">
-              <img src={facebook} alt="facebook link" />
+              <img src={facebook} alt="facebook link" className="icon" />
             </a>
             <a href="/" className="sns-link">
-              <img src={google} alt="google link" />
+              <img src={google} alt="google link" className="icon" />
             </a>
           </div>
         </div>

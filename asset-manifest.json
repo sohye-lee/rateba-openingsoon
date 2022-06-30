@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/rateba-openingsoon/static/css/main.06c649e7.css",
+    "main.js": "/rateba-openingsoon/static/js/main.bc7c5137.js",
+    "static/media/bg-image.jpg": "/rateba-openingsoon/static/media/bg-image.fbb9b3b06735973e1d06.jpg",
+    "static/media/icon-googlemaps.svg": "/rateba-openingsoon/static/media/icon-googlemaps.4f4f0200a12e1481ae76ed76fe9aeb5b.svg",
+    "static/media/logo.svg": "/rateba-openingsoon/static/media/logo.dca95104da362fad97aea5803226a68d.svg",
+    "static/media/icon-instagram.svg": "/rateba-openingsoon/static/media/icon-instagram.4bbdb320398ed1a083a9cfaf7c90464d.svg",
+    "static/media/icon-rocket.svg": "/rateba-openingsoon/static/media/icon-rocket.91a9a28f2a5dae16065c91793c6b4f89.svg",
+    "static/media/icon-phone.svg": "/rateba-openingsoon/static/media/icon-phone.d860bc62a8aaf2355bd64e543fa98e97.svg",
+    "static/media/icon-compass.svg": "/rateba-openingsoon/static/media/icon-compass.b9c489dba7fc998403c7c4aa60d89343.svg",
+    "static/media/icon-send.svg": "/rateba-openingsoon/static/media/icon-send.41779ddb52c7b6b7a584bc28b848b437.svg",
+    "index.html": "/rateba-openingsoon/index.html",
+    "static/media/icon-google.svg": "/rateba-openingsoon/static/media/icon-google.156af96df28f2020909c9dcb90acb20d.svg",
+    "static/media/icon-facebook.svg": "/rateba-openingsoon/static/media/icon-facebook.98579d3eb494a6bd1772beac5a1e1aa1.svg",
+    "static/media/icon-email.svg": "/rateba-openingsoon/static/media/icon-email.5e6df2d83ee09d27502be76c600db39b.svg",
+    "static/media/icon-arrow.svg": "/rateba-openingsoon/static/media/icon-arrow.3a0a7737be36e269541e5ae35901fccc.svg",
+    "main.06c649e7.css.map": "/rateba-openingsoon/static/css/main.06c649e7.css.map",
+    "main.bc7c5137.js.map": "/rateba-openingsoon/static/js/main.bc7c5137.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06c649e7.css",
+    "static/js/main.bc7c5137.js"
+  ]
+}

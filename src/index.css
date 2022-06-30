@@ -204,7 +204,13 @@ a:hover {
 }
 
 .icon:hover {
-  opacity: 0.8;
+  opacity: 0.6;
+  transform: scale(1.05);
+  filter: hue-rotate(60deg) saturate(120%);
+}
+
+.icon:hover {
+  fill: #ae171d !important;
 }
 
 @media (max-width: 1120px) {

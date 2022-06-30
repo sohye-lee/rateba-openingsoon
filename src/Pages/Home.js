@@ -33,7 +33,12 @@ const Home = () => {
                 inviting rooms.
               </p>
               <div className="read-more">
-                <a href="/" className="font-italic">
+                <a
+                  href="https://www.ffxnow.com/2022/04/21/coming-to-merrifield-new-restaurant-unites-ramen-and-korean-bbq/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="font-italic"
+                >
                   Read on press
                   <img src={arrow} alt="arrow icon" />
                 </a>
@@ -65,14 +70,19 @@ const Home = () => {
                   ratebagrillramen@gmail.com
                 </span>
               </a>
-              <div className="info-item d-flex align-items-center p2 mb-2">
+              <a
+                href="https://goo.gl/maps/mkosHEqBfzgvBd2g9"
+                target="_blank"
+                rel="noreferrer"
+                className="info-item d-flex align-items-center p2 mb-2"
+              >
                 <img src={compass} alt="rocket icon" className="me-3 icon" />
                 <span className="d-none d-md-inline">Located at</span>
                 <span className="h-4 fw-bold ms-md-2">
                   3075 Nutley St,
                   <br className="d-md-none" /> Fairfax, VA 22031
                 </span>
-              </div>
+              </a>
             </div>
 
             <div className="form-box mt-5">
